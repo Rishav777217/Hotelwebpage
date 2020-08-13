@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oberoi Hotel - Rooms</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- M icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="none">
+
+    <!-- preloader -->
+    <section class="preloader">
+
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- nav bar -->
+        <section class="fnavbar">
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo">Oberoi Hotels</a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                                class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li><a href="about.html">About</a>
+                            </li>
+                            <li><a href="rooms.html">Rooms</a>
+                            </li>
+                            
+                            <li><a href="#" onclick="toggelModal();">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#" onclick="toggelModal();">Home</a></li>
+                <li><a href="#" onclick="toggelModal();">About</a></li>
+                <li><a href="#" onclick="toggelModal();">Rooms</a></li>
+               
+                <li><a href="#" onclick="toggelModal();">Contact</a></li>
+            </ul>
+        </section>
+
+        <!-- slider -->
+        <section class="fslider">
+            <!-- <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="images/banner1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/banner2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/banner3.jpg"></a>
+        </div> -->
+            <div class="slider ">
+                <ul class="slides">
+                    <li>
+                        <div class="overlay-color"></div>
+                        <img src="images/banner1.jpg">
+                        <div class="caption center-align white-text">
+                            <h3>Oberoi Hotels</h3>
+                            <h5 class="light">
+                                We provide the best Room.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="overlay-color"></div>
+                        <img src="images/banner2.jpg">
+                        <div class="caption center-align white-text">
+                            <h3>Oberoi Hotels</h3>
+                            <h5 class="light">
+                                We provide the best Room.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="overlay-color"></div>
+                        <img src="images/banner3.jpg">
+                        <div class="caption center-align white-text">
+                            <h3>Oberoi Hotels</h3>
+                            <h5 class="light">
+                                We provide the best Room.
+                            </h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- description -->
+        <section class="descrip ">
+            <div class="section center">
+                <h2 class="header">Oberoi Hotels - Ultimate room service</h2>
+                <br>
+                <div class="row container center">
+                    <div class="col l8 s12 grey-text" style="text-align: justify;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse temporibus eius iure corporis
+                        rerum
+                        quos sequi odit dolore modi minima omnis molestias quod voluptatum assumenda autem possimus,
+                        vero
+                        accusamus ducimus dignissimos hic id, nobis non similique in? Non id nam consequuntur voluptatum
+                        reiciendis consequatur quos quidem inventore voluptate, magnam esse autem commodi iure porro
+                        quia,
+                        saepe quam mollitia vero natus sint libero, nisi obcaecati optio! Optio minima perspiciatis
+                        repellendus dolorum ratione perferendis adipisci at accusamus eius dolor voluptas nobis, illum
+                        libero amet neque sapiente? Temporibus facilis pariatur nam itaque eveniet commodi dolorem
+                        aspernatur dolorum iure, quisquam, impedit modi rem labore?
+                    </div>
+                    <div class="col l4 s12">
+                        <img src="images/coffee.png" alt="coffe" height="200" width="auto" style="object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cards -->
+        <!-- <section class="fcards ">
+            <div class="row" style="padding: 0px 50px;">
+                <div class="col s12 m12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/card1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Affogato<i
+                                    class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Affogato<i
+                                    class="material-icons right">close</i></span>
+                            <p>Ice cream in a shot of espresso.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/card3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Café Latte<i
+                                    class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Café Latte<i
+                                    class="material-icons right">close</i></span>
+                            <p>One part espresso, two parts steamed milk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/card2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Espresso con Panna<i
+                                    class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Espresso con Panna<i
+                                    class="material-icons right">close</i></span>
+                            <p>A shot of espresso topped with whipped cream</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- parallax -->
+        <section class="fparallax">
+
+            <div class="parallax-container">
+                <div class="parallax"><img src="images/parallax11.jpg"></div>
+            </div>
+
+            <!-- <div class="parallax-container">
+            <div class="parallax"><img src="images/paralax.jpg" class="responsive-img"></div>
+        </div> -->
+        </section>
+
+        <!-- about -->
+        <section class="fabout ">
+            <div class="row container" style="padding-bottom: 50px;">
+                <h2 class="header center">About Us</h2>
+                <p class="grey-text" style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Officia expedita molestias dignissimos ipsa autem, fugit libero delectus molestiae accusamus ratione
+                    recusandae nisi tempora, vero, a voluptas perferendis blanditiis veniam non. Nam enim aspernatur
+                    dicta
+                    velit optio ad soluta culpa magni doloribus blanditiis totam, illo aliquam quidem aut molestiae
+                    perspiciatis voluptates officiis minima, natus ab ratione atque dolorum quam quos! Eos corporis
+                    laudantium dicta? Dolores nemo, nobis modi dolorem unde enim ea nihil adipisci explicabo repudiandae
+                    doloremque optio? Maiores eos blanditiis enim. Odit ipsam obcaecati, veritatis adipisci architecto
+                    quae
+                    delectus assumenda ratione aut nemo numquam expedita placeat magnam cupiditate fugiat quaerat
+                    mollitia
+                    ipsa nihil voluptatum, sunt blanditiis aperiam. Nihil earum optio autem, dolor quibusdam magnam
+                    assumenda repudiandae maiores nesciunt exercitationem vel fugiat praesentium accusamus ad ducimus
+                    officiis voluptas ipsam sint libero possimus beatae. Necessitatibus nisi nostrum sapiente quasi
+                    distinctio vero provident, aliquam facere ex ea placeat quam exercitationem nulla nihil. At
+                    temporibus
+                    repellat quam quas consequuntur cum ullam iure deleniti laudantium nisi qui totam animi explicabo
+                    debitis culpa maxime doloribus veritatis, nobis sunt maiores distinctio placeat ex quos? A quia fuga
+                    rem
+                    nemo ipsam numquam aperiam expedita, enim fugit, reiciendis quas quaerat. Pariatur eveniet natus
+                    cum.
+                    Magni sunt nostrum temporibus sapiente.
+                </p>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="fservices ">
+            <div class="row" style="padding: 0px 50px;">
+                <div class="col s12 m12 l4 center">
+                    <i class="large material-icons icon-color">local_dining</i>
+                    <h5 class="header">Huge Variety</h5>
+                </div>
+                <div class="col s12 m12 l4 center">
+                    <i class="large material-icons icon-color">favorite</i>
+                    <h5 class="header">Loved by All</h5>
+                </div>
+                <div class="col s12 m12 l4 center">
+                    <i class="large material-icons icon-color">watch_later</i>
+                    <h5 class="header">Book a Room</h5>
+                </div>
+            </div>
+        </section>
+
+        <!-- reviews -->
+        <section class="freviews">
+            <div class="section center">
+                <div class="carousel" style="margin-bottom: 50px;">
+                    <h3 class="header">What our customer say</h3>
+                    <br>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">One</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Two</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Three</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Four</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Five</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Six</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Seven</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" style="background-color: #6f4037 !important;">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Eight</span>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Address </h5>
+                        <p class="grey-text text-lighten-4">Mussoorie, Diversion Road, Makka Wala, Uttarakhand 248009.
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Social Media</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">FaceBook</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Copyright
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Link Disabled</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, alias earum consectetur nisi corporis
+                    repudiandae exercitationem maiores aliquid porro ipsa.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large  grey darken-3" onclick="colorChanger()">
+                <i class="large material-icons">brightness_medium</i>
+            </a>
+        </div>
+    </main>
+</body>
+
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- my java script -->
+<script defer src="js/main.js"></script>
+
+</html>
